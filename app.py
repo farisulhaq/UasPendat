@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score
 
 # display
 # st.set_page_config(layout='wide')
-st.set_page_config(page_title="FarisulHaq")
+st.set_page_config(page_title="FarisulHaq", page_icon='icon.png')
 
 
 @st.cache()

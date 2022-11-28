@@ -33,7 +33,11 @@ label = ['Extremely Weak', 'Weak', 'Normal',
          'Overweight', 'Obesity', 'Extreme Obesity']
 with dataframe:
     progress()
-    st.write('Data BMI')
+    url = "https://www.kaggle.com/datasets/yersever/500-person-gender-height-weight-bodymassindex"
+    st.markdown(
+        f'[Dataset BMI]({url})')
+    st.write('Height and Weight random generated, Body Mass Index Calculated')
+
     dataset, ket = st.tabs(['Dataset', 'Ket Dataset'])
     with ket:
         st.write("""
